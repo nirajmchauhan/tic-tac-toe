@@ -1,0 +1,38 @@
+
+#wrapper {
+    background-image: url("../img/grid.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px #888888;
+    height: 307px;
+    margin: 15% auto;
+    padding: 10px;
+    width: 315px;
+}
+.box {
+    display: table-row;
+    float: left;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    width: 105px;
+}
+.x{
+    background-image: url("../img/O.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.o{
+    background-image: url("../img/X.jpg");
+    background-repeat: no-repeat;
+}
+label {
+    float: left;
+    height: 100px;
+    position: relative;
+    width: 100px;
+}
+input[type="radio"]{
+    display: none;
+}
